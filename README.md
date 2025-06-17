@@ -1,30 +1,64 @@
-# saberDash
+# Saber Dash
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+A Star Wars themed running game built with Next.js.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/devilfish13s-projects/v0-saber-dash)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/9rWDUQpHcw1)
+## Prerequisites
 
-## Overview
+- Node.js 18 or later
+- Yarn package manager
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## Installation
 
-## Deployment
+1. Clone the repository
+```bash
+git clone https://github.com/yourusername/saberDash.git
+cd saberDash
+```
 
-Your project is live at:
+2. Install dependencies
+```bash
+yarn install
+```
 
-**[https://vercel.com/devilfish13s-projects/v0-saber-dash](https://vercel.com/devilfish13s-projects/v0-saber-dash)**
+## Development
 
-## Build your app
+Run the development server:
+```bash
+yarn dev
+```
 
-Continue building your app on:
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-**[https://v0.dev/chat/projects/9rWDUQpHcw1](https://v0.dev/chat/projects/9rWDUQpHcw1)**
+## Build for Production
 
-## How It Works
+Build the application:
+```bash
+yarn build
+```
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+Start the production server:
+```bash
+yarn start
+```
+
+## Testing
+
+Run tests:
+```bash
+yarn test
+```
+
+## Scripts
+
+- `yarn dev` - Start development server
+- `yarn build` - Build for production
+- `yarn start` - Start production server
+- `yarn lint` - Run ESLint
+- `yarn test` - Run tests
+
+## Tech Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
